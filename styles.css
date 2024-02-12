@@ -1,0 +1,48 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a gradient background */
+body {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Heading styles */
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Custom font imports */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;700&display=swap');
